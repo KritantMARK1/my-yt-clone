@@ -1,0 +1,140 @@
+
+.subscribe {
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 8px;
+    margin-left: 8px;
+    padding: 14px;
+    transition: all 0.2s ease; /* Apply smooth transition to all properties */
+    vertical-align: top;
+    box-shadow: 0 5px 0 rgb(150, 0, 0); /* Initial shadow for 3D effect */
+}
+
+.subscribe:hover {
+    opacity: 0.7;
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+    box-shadow: 0 4px 0 rgb(150, 0, 0); /* Slightly reduce shadow to enhance the 3D effect */
+}
+
+.subscribe:active {
+    opacity: 0.9;
+    transform: translateY(4px); /* Move the button down when clicked */
+    box-shadow: 0 1px 0 rgb(150, 0, 0); /* Simulate the button being pressed */
+}
+
+
+    
+    .join{
+        background-color: white;
+        border-color: rgb(48, 121, 232);
+        color: rgb(48, 121, 232); 
+        border-width: 1px;
+        border-style : solid;
+        border-radius: 1px;
+       padding-right: 20px;
+       padding-left: 20px;
+       padding-top: 10px;
+       padding-bottom: 10px;
+        cursor : pointer;
+        margin-right: 8px;
+        transition: background-color 0.2s, color 0.2s;
+        vertical-align:top;
+         
+
+    }
+    .join:hover{
+        transition: background-color 0.2s, color 0.2s;
+        background-color:rgb(48, 121, 232);
+        color: white; 
+        transform: scale(1.05);
+        box-shadow: 0 5px 0 rgb(0, 0, 120);
+    }
+    .join:active{
+        opacity: 0.7;
+    }
+
+    .tweet{
+        background-color: rgb(48, 121, 232);
+        border-radius: 15px;
+        color : white;
+        height : 30px;
+        width : 74px;
+        border : none;
+        font-size : 15px;
+        cursor:pointer;
+        vertical-align:top;
+    } 
+    .tweet:hover{
+        transition: background-color 0.2s , color 0.2s;
+        background-color:white ;
+        color: rgb(48, 121, 232);
+        transform: scale(1.05);
+        
+        
+    }
+    .requestnow{
+        background-color: black;
+        color: white;
+        border: none;
+        height: 40px;
+        width: 100px;
+        font-size: 12px;
+        cursor : pointer;
+        vertical-align:top;
+
+    }
+    .requestnow:hover{
+        opacity: 0.7;
+        transform: scale(1.05);
+    }
+    .requestnow:active{
+        opacity: 0.4;
+    }
+
+    .amazon{
+        background-color: rgb(255,216,20);
+        color:black;
+        border-radius: 30px;
+        height: 45px;
+        width: 245px;
+        border: none;
+        font-size : 20px;
+        cursor: pointer;
+        transition: opacity 0.2s;
+        vertical-align:top;
+
+    }
+    .amazon:hover{
+        opacity: 0.7;
+        transform: scale(1.05);
+    }
+    .amazon:active{
+        opacity: 0.4;
+    }
+    .github {
+    background-color: rgb(46, 174, 79);
+    height: 35px;
+    width: 100px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: opacity 0.2s; /* Ensures the transition works */
+    vertical-align: top;
+}
+
+.github:hover {
+    opacity: 0.7; /* Valid opacity value (between 0 and 1) */
+    transform: scale(1.2);
+}
+
+.github:active { 
+    opacity: 0.4; /* Valid opacity value */
+}
+
+
+
